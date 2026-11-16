@@ -4,5 +4,10 @@
   "private": true,
   "dependencies": {
     "@waline/vercel": "latest"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "*"
+    ]
   }
 }
